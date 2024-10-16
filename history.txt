@@ -1,0 +1,56 @@
+    1  git init Vlad
+    2  cd Vlad
+    3  git config --global user.name "Vlad Babchenko"
+    4  git config --global user.email "vladbabchenko2007@gmail.com"
+    5  touch File.txt
+    6  git status
+    7  git add .
+    8  git status
+    9  git commit "Додано файл"
+   10  git commit -m "Додано файл"
+   11  git status
+   12  echo "Це текстовий файл" > File.txt
+   13  git status
+   14  git add File.txt
+   15  git commit -m "Додано вміст до файлу"
+   16  git status
+   17  echo "Новий вміст файлу" > File.txt
+   18  git status
+   19  git add File.txt
+   20  git commit -m "Зміна вмісту файлу"
+   21  git log
+   22  touch File1.txt
+   23  echo "Вміст файлу File1" > File1.txt
+   24  git add File1.txt
+   25  git commit -m "Додано новий файл"
+   26  echo "Додано вміст до нового файлу" > File1.txt
+   27  git add File1.txt
+   28  git commit -m "Додано додатковий вміст до файлу"
+   29  echo "Додано рядок" > File.txt
+   30  git add File.txt
+   31  git commit -m "Оновлення файлу"
+   32  touch File3.txt
+   33  echo "Трейтій файл" > File3.txt
+   34  git add File3.txt
+   35  git commit -m "Додано третій файл"
+   36  echo "Заміна файлу" > File2.txt
+   37  git add File2.txt
+   38  git status
+   39  git commit -m "ЗмІни у файлі 2"
+   40  echo "файл" > File.txt
+   41  git add File.txt
+   42  git commit -m "Зміни у файлі"
+   43  git status
+   44  git log
+   45  git log --oneline
+   46  git show 10239c8
+   47  git show HEAD^
+   48  git checkout 7843b49
+   49  git log --oneline
+   50  git switch -c main
+   51  git checkout main
+   52  git log --oneline
+   53  git log --pretty=format:"%h: %s - by %an, at %ad" --date=short
+   54  git status 
+   55  history.txt 
+   56  history > history.txt
