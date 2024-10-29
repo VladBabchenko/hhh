@@ -1,5 +1,9 @@
 <<<<<<< HEAD
 555
+<<<<<<< HEAD
+=======
+666
+>>>>>>> 814f531 (Fix issue in File2.txt)
 =======
 Нові зміни
 >>>>>>> Feature/babchenko
